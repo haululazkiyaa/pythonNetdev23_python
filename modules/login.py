@@ -1,5 +1,4 @@
 import datetime
-from time import sleep
 
 def login(self):
     time = datetime.datetime.now()
