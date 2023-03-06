@@ -18,7 +18,7 @@ penarikan!
 +++++++++++++++++++++++++++++++++++++++++++++
                 """)
             self.withdraw()
-        while amount > self.balance or amount < 0:
+        while amount > self.balance or amount < 1:
             print("""
 +++++++++++++++++++++++++++++++++++++++++++++
 + ERROR: Masukan tidak valid. Mencoba lagi! +

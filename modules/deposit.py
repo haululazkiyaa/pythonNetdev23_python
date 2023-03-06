@@ -12,7 +12,7 @@ penyetoran!
         amount = int(amount)
     except ValueError:
         pass
-    while amount < 0:
+    while amount < 1:
         print("Masukan tidak valid. Coba lagi!")
         amount = input("$")
         try:
